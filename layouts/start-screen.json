@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "start_45screen",
+  "name": "start-screen",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9296875000000001,
+    "zoomFactor": 0.4789341884535248,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,11 +30,11 @@
       "depth": 1,
       "height": 1283,
       "layer": "",
-      "name": "NewSprite",
+      "name": "start_screen",
       "persistentUuid": "bb3c3f91-5842-400a-b276-0c0661694208",
-      "width": 741,
-      "x": -10,
-      "y": -5,
+      "width": 737,
+      "x": -9,
+      "y": 2,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,13 +44,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 120,
+      "height": 112,
       "layer": "",
-      "name": "NewSprite2",
+      "name": "button_play",
       "persistentUuid": "be3fd31f-c3d9-4df3-9ea1-24036a72136f",
-      "width": 239,
-      "x": 254,
-      "y": 611,
+      "width": 226,
+      "x": 277,
+      "y": 620,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,7 +61,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "start_screen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -102,7 +102,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite2",
+      "name": "button_play",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -145,10 +145,10 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "start_screen"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "button_play"
       }
     ]
   },
@@ -165,7 +165,107 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "button_play"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "button_play",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "button_play",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "button_play",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "button_play"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "button_play",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"play-screen\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

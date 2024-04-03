@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "a8546f99-f3fb-40c8-a13b-7c8d062c929e",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -63,7 +63,127 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Sans titre-1-Récupéré3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sans titre-1-Récupéré3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Play3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Play3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../game.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\game.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "game3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "game3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound-on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sound-on.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound-off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sound-off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bubble.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bubble.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/12254a94cf3e8dbc4bcccadf4f2f761ee0736f0abe7405c4a419fab822ba90ca_Bubble.png",
+          "name": "Bubble.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CartoonSmokeBlast.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CartoonSmokeBlast.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/971c74ddfb7396b4a871d3949e0970d50be470c636b91142362c15a3431ed63c_CartoonSmokeBlast.png",
+          "name": "CartoonSmokeBlast.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/c693a024a868728da3e9e91c9d23513306582bda6ba10191afc24d6c5667dd5e_Explosion1.png",
+          "name": "Explosion1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CartoonSmoke.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CartoonSmoke.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/971c74ddfb7396b4a871d3949e0970d50be470c636b91142362c15a3431ed63c_CartoonSmoke.png",
+          "name": "CartoonSmoke.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/c693a024a868728da3e9e91c9d23513306582bda6ba10191afc24d6c5667dd5e_Explosion3.png",
+          "name": "Explosion3.png"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -75,7 +195,11 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/start-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/play-screen"
     }
   ],
   "externalEvents": [],

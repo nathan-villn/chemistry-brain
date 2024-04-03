@@ -1,0 +1,473 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "play_45screen",
+  "name": "play-screen",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1.1343715797160965,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1283,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "fe5d37bb-9008-4b83-9136-704bc6904dd3",
+      "width": 847,
+      "x": -46,
+      "y": -1,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 271,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
+      "layer": "",
+      "name": "Bubbles",
+      "persistentUuid": "df7d7f9a-8474-4c4e-810e-226ac57070df",
+      "width": 118,
+      "x": 404,
+      "y": 691,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 260,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "layer": "",
+      "name": "Bubbles2",
+      "persistentUuid": "995dfd8e-bcf6-46d2-b9da-75b348511346",
+      "width": 75,
+      "x": 630,
+      "y": 699,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 89,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CartoonSmoke",
+      "persistentUuid": "e21d9402-a4d8-45ad-964c-acb34d1eddbc",
+      "width": 0,
+      "x": 473,
+      "y": 415,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "game3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sound-on.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sound-off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "85f99439726e532b49dcf86abd78d504bfc2b11aed5be239fd2bcc3e1e31c668",
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 10,
+      "emitterForceMax": 50,
+      "emitterForceMin": 24,
+      "flow": 50,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 479,
+      "name": "Bubbles",
+      "particleAlpha1": 10,
+      "particleAlpha2": 155,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 51,
+      "particleAngle2": 50,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 194,
+      "particleBlue2": 194,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 227,
+      "particleGreen2": 227,
+      "particleLifeTimeMax": 5,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 80,
+      "particleRed2": 80,
+      "particleSize1": 4,
+      "particleSize2": 4,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 1,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": -1,
+      "textureParticleName": "Bubble.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 0
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "assetStoreId": "85f99439726e532b49dcf86abd78d504bfc2b11aed5be239fd2bcc3e1e31c668",
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 10,
+      "emitterForceMax": 50,
+      "emitterForceMin": 24,
+      "flow": 50,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 479,
+      "name": "Bubbles2",
+      "particleAlpha1": 10,
+      "particleAlpha2": 143,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 51,
+      "particleAngle2": 50,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 33,
+      "particleBlue2": 33,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 211,
+      "particleGreen2": 211,
+      "particleLifeTimeMax": 2,
+      "particleLifeTimeMin": 2,
+      "particleRed1": 126,
+      "particleRed2": 126,
+      "particleSize1": 3,
+      "particleSize2": 3,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 1,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": -1,
+      "textureParticleName": "Bubble.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 0
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "assetStoreId": "bfa191c7cd69557bd4ffc5ed1864e88e33385646e181c772ef90ab55e6cc4eac",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 400,
+      "emitterForceMin": 300,
+      "flow": 200,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 100,
+      "name": "CartoonSmoke",
+      "particleAlpha1": 191,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 200,
+      "particleAngle2": 200,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 88,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 139,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 0.699999988079071,
+      "particleLifeTimeMin": 0.4000000059604645,
+      "particleRed1": 235,
+      "particleRed2": 255,
+      "particleSize1": 1,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 1,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": 30,
+      "textureParticleName": "CartoonSmoke.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "NewSprite3"
+      },
+      {
+        "objectName": "Bubbles"
+      },
+      {
+        "objectName": "Bubbles2"
+      },
+      {
+        "objectName": "CartoonSmoke"
+      }
+    ]
+  },
+  "events": [],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
+}
