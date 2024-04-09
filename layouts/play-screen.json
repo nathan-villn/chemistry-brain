@@ -9,16 +9,16 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
-    "gridOffsetX": 0,
+    "gridWidth": 64,
+    "gridHeight": 64,
+    "gridOffsetX": 40,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 1.1343715797160965,
+    "snap": true,
+    "zoomFactor": 2.4374160154690028,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,13 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1283,
+      "height": 1146,
       "layer": "",
-      "name": "NewSprite",
+      "name": "back_game",
       "persistentUuid": "fe5d37bb-9008-4b83-9136-704bc6904dd3",
-      "width": 847,
-      "x": -46,
-      "y": -1,
+      "width": 718,
+      "x": 1,
+      "y": 134,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,8 +49,8 @@
       "name": "Bubbles",
       "persistentUuid": "df7d7f9a-8474-4c4e-810e-226ac57070df",
       "width": 118,
-      "x": 404,
-      "y": 691,
+      "x": 385,
+      "y": 756,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,34 +65,365 @@
       "name": "Bubbles2",
       "persistentUuid": "995dfd8e-bcf6-46d2-b9da-75b348511346",
       "width": 75,
-      "x": 630,
-      "y": 699,
+      "x": 575,
+      "y": 764,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 89,
-      "customSize": false,
-      "height": 0,
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 94,
       "layer": "",
-      "name": "CartoonSmoke",
-      "persistentUuid": "e21d9402-a4d8-45ad-964c-acb34d1eddbc",
-      "width": 0,
-      "x": 473,
-      "y": 415,
+      "name": "Smoke",
+      "persistentUuid": "0727e137-5420-4e13-818e-e0b5e041d519",
+      "width": 75,
+      "x": 556,
+      "y": 289,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "layer": "",
+      "name": "sound_on",
+      "persistentUuid": "18516ea2-8fc4-4014-9455-50b82235d3ad",
+      "width": 41,
+      "x": 646,
+      "y": 32,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 133,
+      "layer": "",
+      "name": "bordereau",
+      "persistentUuid": "bcb36d4c-9ed6-4337-babd-9f5ec23679ff",
+      "width": 719,
+      "x": 1,
+      "y": 0,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 98,
+      "layer": "",
+      "name": "score",
+      "persistentUuid": "4f6c0abb-7c14-44d0-88e1-5651c1788457",
+      "width": 96,
+      "x": 31,
+      "y": 19,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 191,
+      "layer": "",
+      "name": "fiole",
+      "persistentUuid": "f7b92966-fcab-48e0-b7ca-32e0e5b98db9",
+      "width": 257,
+      "x": -46,
+      "y": 106,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 275,
+      "layer": "",
+      "name": "tuyau_1",
+      "persistentUuid": "16f349fe-3c98-4277-9ff0-d8cefdf57af6",
+      "width": 188,
+      "x": 133,
+      "y": 528,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 145,
+      "layer": "",
+      "name": "tuyau__2",
+      "persistentUuid": "96091a12-2280-4c98-9ce5-aec25e5ba29c",
+      "width": 78,
+      "x": 76,
+      "y": 196,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 165,
+      "layer": "",
+      "name": "tuyau__2",
+      "persistentUuid": "ade9be35-151d-43e8-ba2f-2b59bf0d6cfd",
+      "width": 81,
+      "x": 184,
+      "y": 757,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 271,
+      "customSize": true,
+      "depth": 1,
+      "height": 120,
+      "layer": "",
+      "name": "tuyau_3",
+      "persistentUuid": "fc22333a-d73b-4474-b21b-38e0485658ca",
+      "width": 99,
+      "x": 169,
+      "y": 912,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 88,
+      "layer": "",
+      "name": "tuyau_4",
+      "persistentUuid": "ed5aaa6f-c455-4605-8c5f-91c8272501d9",
+      "width": 166,
+      "x": 626,
+      "y": 789,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 95,
+      "layer": "",
+      "name": "point_rouge_score",
+      "persistentUuid": "9a0d3b35-4249-4b30-b93b-0f685cb074e7",
+      "width": 91,
+      "x": 34,
+      "y": 20,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 236,
+      "layer": "",
+      "name": "tuyau_1",
+      "persistentUuid": "bca86c24-e6ac-4560-8bf8-67959ccacf2a",
+      "width": 199,
+      "x": 400,
+      "y": 856,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
+      "layer": "",
+      "name": "dp",
+      "persistentUuid": "a3e6cc48-9e45-4bca-b5d8-cf6cbfa3995d",
+      "width": 26,
+      "x": 60,
+      "y": 403,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "layer": "",
+      "name": "dp",
+      "persistentUuid": "529e56a9-0018-48e5-a4a1-02eea26a047e",
+      "width": 23,
+      "x": 60,
+      "y": 473,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "layer": "",
+      "name": "dp",
+      "persistentUuid": "289870fb-9c26-45ae-905b-9ad9f0e658c7",
+      "width": 23,
+      "x": 125,
+      "y": 473,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "layer": "",
+      "name": "dp",
+      "persistentUuid": "34e8bc18-7993-4763-9013-e042b85e0319",
+      "width": 23,
+      "x": 180,
+      "y": 473,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "layer": "",
+      "name": "dp",
+      "persistentUuid": "5dd13a17-a39d-4d40-b669-61b7463d5b8e",
+      "width": 23,
+      "x": 172,
+      "y": 554,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "layer": "",
+      "name": "dp",
+      "persistentUuid": "18bd2835-9b92-44ae-8ae2-7028d59b1292",
+      "width": 23,
+      "x": 169,
+      "y": 700,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "layer": "",
+      "name": "dp",
+      "persistentUuid": "a0bb99ee-c1a0-45bb-aef8-07e67e7887f6",
+      "width": 23,
+      "x": 168,
+      "y": 780,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 4
+        }
+      ]
     }
   ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "back_game",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -133,7 +464,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite2",
+      "name": "sound_on",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -174,7 +505,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite3",
+      "name": "sound_off",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -330,61 +661,540 @@
     },
     {
       "additive": false,
-      "assetStoreId": "bfa191c7cd69557bd4ffc5ed1864e88e33385646e181c772ef90ab55e6cc4eac",
-      "destroyWhenNoParticles": true,
+      "assetStoreId": "d87e0785a9f1f48225fca827fce148572bfcec101a25387683403ee93f4820ea",
+      "destroyWhenNoParticles": false,
       "emitterAngleA": 0,
-      "emitterAngleB": 360,
-      "emitterForceMax": 400,
-      "emitterForceMin": 300,
-      "flow": 200,
+      "emitterAngleB": 45,
+      "emitterForceMax": 10,
+      "emitterForceMin": 70,
+      "flow": 800,
       "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 100,
-      "name": "CartoonSmoke",
-      "particleAlpha1": 191,
+      "maxParticleNb": 500,
+      "name": "Smoke",
+      "particleAlpha1": 50,
       "particleAlpha2": 0,
       "particleAlphaRandomness1": 0,
       "particleAlphaRandomness2": 0,
-      "particleAngle1": 200,
-      "particleAngle2": 200,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
       "particleAngleRandomness1": 0,
       "particleAngleRandomness2": 0,
-      "particleBlue1": 88,
-      "particleBlue2": 255,
+      "particleBlue1": 27,
+      "particleBlue2": 27,
       "particleGravityX": 0,
       "particleGravityY": 0,
-      "particleGreen1": 139,
-      "particleGreen2": 255,
-      "particleLifeTimeMax": 0.699999988079071,
-      "particleLifeTimeMin": 0.4000000059604645,
-      "particleRed1": 235,
-      "particleRed2": 255,
-      "particleSize1": 1,
+      "particleGreen1": 2,
+      "particleGreen2": 2,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 208,
+      "particleRed2": 208,
+      "particleSize1": 10,
       "particleSize2": 100,
       "particleSizeRandomness1": 0,
       "particleSizeRandomness2": 0,
       "rendererParam1": 1,
-      "rendererParam2": 1,
+      "rendererParam2": 0,
       "rendererType": "Quad",
-      "tank": 30,
-      "textureParticleName": "CartoonSmoke.png",
+      "tank": -1,
+      "textureParticleName": "Smoke.png",
       "type": "ParticleSystem::ParticleEmitter",
       "zoneRadius": 0,
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "score",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Nombre de  coups",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Nombre de  coups",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 594,
+                        "y": 0
+                      },
+                      {
+                        "x": 594,
+                        "y": 679
+                      },
+                      {
+                        "x": 0,
+                        "y": 679
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "point_rouge_score",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "point-rouge.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bordereau",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rectangle 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fiole",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Illustration_sans_titre (1).PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tuyau_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Calque 3.png",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 70.5,
+                      "y": 16.5
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 71.5,
+                      "y": 153.5
+                    },
+                    {
+                      "name": "Point3",
+                      "x": 288.5,
+                      "y": 159.5
+                    },
+                    {
+                      "name": "Point4",
+                      "x": 292.5,
+                      "y": 366.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 178.5,
+                    "y": 214.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tuyau__2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Calque 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 78,
+                    "y": 113.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tuyau_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Calque 4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Calque 4",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 65.5,
+                      "y": 15
+                    },
+                    {
+                      "name": "Point2",
+                      "x": 68.5,
+                      "y": 175
+                    },
+                    {
+                      "name": "Point3",
+                      "x": 197.5,
+                      "y": 179.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 104.5,
+                    "y": 119.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 209,
+                        "y": 1
+                      },
+                      {
+                        "x": 209,
+                        "y": 214
+                      },
+                      {
+                        "x": 0,
+                        "y": 214
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tuyau_4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ellipse 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dp",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 23
+                      },
+                      {
+                        "x": 36,
+                        "y": 23
+                      },
+                      {
+                        "x": 36,
+                        "y": 34
+                      },
+                      {
+                        "x": 25,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "back_game"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "sound_on"
       },
       {
-        "objectName": "NewSprite3"
+        "objectName": "bordereau"
+      },
+      {
+        "objectName": "fiole"
+      },
+      {
+        "objectName": "sound_off"
       },
       {
         "objectName": "Bubbles"
@@ -393,11 +1203,311 @@
         "objectName": "Bubbles2"
       },
       {
-        "objectName": "CartoonSmoke"
+        "objectName": "Smoke"
+      },
+      {
+        "objectName": "point_rouge_score"
+      },
+      {
+        "objectName": "score"
+      },
+      {
+        "objectName": "tuyau_1"
+      },
+      {
+        "objectName": "dp"
+      },
+      {
+        "objectName": "tuyau__2"
+      },
+      {
+        "objectName": "tuyau_3"
+      },
+      {
+        "objectName": "tuyau_4"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "tuyau_1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "tuyau_1",
+            "+",
+            "90"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "tuyau__2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "tuyau__2",
+            "+",
+            "90"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "tuyau_3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "tuyau_3",
+            "+",
+            "90"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "dp",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "dp",
+                "id",
+                "=",
+                "path_index"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "pathFound",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "fiole",
+                "dp.X()",
+                "dp.Y()",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "pathFound",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"fiole\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "\"nouveau chemin\"",
+                "\"info\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "pathFound",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"fiole\"",
+            ">=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "fiole"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "path_index",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "pathFound",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
