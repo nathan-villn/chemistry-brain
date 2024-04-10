@@ -384,6 +384,107 @@
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound-off4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sound-off4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound-on5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sound-on5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound-off5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sound-off5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Nombre de  coups2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nombre de  coups2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Lacquer-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b74b5a3ae4436bfe2eb1d30291ac008847e68d1d452d80f9130d5b36791bb68d_Lacquer-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/b74b5a3ae4436bfe2eb1d30291ac008847e68d1d452d80f9130d5b36791bb68d_Lacquer-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Press.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Press.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Press2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Press2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Press3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Press3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Calque 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Calque 1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -402,6 +503,30 @@
     {
       "folded": true,
       "name": "pathFound",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "on",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "off",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "coup",
+      "type": "number",
+      "value": 25
+    },
+    {
+      "folded": true,
+      "name": "cligne",
       "type": "boolean",
       "value": false
     }
